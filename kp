@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'/template/club/skin/basic/gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJ2DR46');</script>
+
+<title>키위 디스크.2 가장 큰 글로벌 웹하드클럽 [1.35]</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=10,9,8" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="/template/script/jquery.cookie.js"></script>
+<script type="text/javascript" language="JavaScript" src="/template/club/skin/basic/script/default.js?ver=1.51"></script>
+<script type="text/javascript" language="JavaScript" src="/template/club/skin/basic/script/formchk.js?ver=0.3"></script>
+<link rel="stylesheet" type="text/css" href="/template/script/style.css?ver=0.43">
+<link rel="stylesheet" type="text/css" href="/css/button.css?ver=0.4">
+
+
+<style type="text/css">
+<!--
+body, table, tr, td, select, input, textarea {
+	font-family:돋움체, seoul, arial, verdana;
+	font-size:9pt; color:#666666; word-break:break-all;
+	line-height: 130%;
+	scrollbar-face-color:#DDDDDD;
+	scrollbar-highlight-color: #CCCCCC;
+	scrollbar-shadow-color: #CCCCCC;
+	scrollbar-3dlight-color: #F5F5F5;
+	scrollbar-darkshadow-color: #F5F5F5;
+	scrollbar-track-color: #F0F0F0;
+	scrollbar-arrow-color: #FFFFFF; }
+.font {font-size: 11px; font-family:돋움, seoul, arial, verdana; line-height: 130%; word-break:break-all; }
+-->
+</style>
+<script type="text/javascript">
+var cluburlby64 = "Ly93d3cua2l3aWRpc2suY29tL2NsdWIvYmFzaWMvY2x1Yi5waHA/Y2x1YmlkPWFtaWdv";
+var myClubGo_Domain = "//club.kiwidisk.com";
+var script_Domain = "www.kiwidisk.com";
+</script>
+<script type="text/javascript">
+jQuery(function(){
+  jQuery("span.sTop").on({
+    'click' : function(){
+      jQuery(document).scrollTop(0);
+    },
+    'mouseover' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon_1.png');
+    },
+    'mouseout' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon.png');
+    }
+  });
+
+  jQuery("span.sDown").on({
+    'click' : function(){
+      jQuery(document).scrollTop(100000);
+    },
+    'mouseover' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon1_1.png');
+    },
+    'mouseout' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon1.png');
+    }
+  });
+
+  jQuery("#bbs_perv_next_btn span.sLeft").on({
+    'click' : function(){
+		var code = jQuery(this).attr("code");
+		var idx = jQuery(this).attr("idx");
+
+		var url = "/ci/club/check_view_pn/1/"+idx+"/"+code;
+
+		console.log(url);
+
+		jQuery.ajax({
+			type : "GET",
+			url : url,
+			dataType : "html",
+			success: function(res){
+				if(res != "0")	jQuery('#club_body').attr("src","/club/basic/bbs.php?clubid=amigo&idx="+res+"&bbscode="+code+"&pg_mode=view");
+				else			alert("이전 글이 없습니다.");
+			},
+			error : function(){}
+		});
+    },
+    'mouseover' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon2_1.png');
+    },
+    'mouseout' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon2.png');
+    }
+  });
+
+  jQuery("#bbs_perv_next_btn span.sRight").on({
+    'click' : function(){
+		var code = jQuery(this).attr("code");
+		var idx = jQuery(this).attr("idx");
+
+		var url = "/ci/club/check_view_pn/2/"+idx+"/"+code;
+
+		jQuery.ajax({
+			type : "GET",
+			url : url,
+			dataType : "html",
+			success: function(res){
+				if(res != "0")	jQuery('#club_body').attr("src","/club/basic/bbs.php?clubid=amigo&idx="+res+"&bbscode="+code+"&pg_mode=view");
+				else			alert("다음 글이 없습니다.");
+			},
+			error : function(){}
+		});
+    },
+    'mouseover' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon3_1.png');
+    },
+    'mouseout' : function(){
+      jQuery(this).find("img").attr('src','/images/top_icon3.png');
+    }
+  });
+
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+if(window.self !== window.top){
+	//console.log('top');
+	top.location.href = window.location.href;
+	//top.location.href = window.location.href.replace('http','https');
+}
+else{
+	//console.log('self');
+};
+</script>
+</head>
+<body parentName="CLUB" onLoad="clubInit()" style="margin:0px; background-image:none;">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ2DR46"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<table width="1100" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding:5px 0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="color:#666666;font-family:돋움;" nowrap>
+<a href="/" target="_top"><b style="color:#5f9207;">키위홈</b></a>
+|
+<a href="/kclub" target="_top"><b style="color:#5f9207;">키위클럽</b></a>
+|
+<a href="/ktalk" target="_blank"><b style="color:#5f9207;">키위톡</b></a>
+|
+
+<a href="/kclub?cate=101" target="_top">영화/비디오</a>
+|
+<a href="/mypage" target="_blank">마이페이지</a>
+
+|
+<b><a href="/customer/client" target="_blank">다운로더설치</a></b>
+<a href="/member/login" target="_top"><img src="/images/club/login.gif" align="absmiddle"></a> </td>
+<td align="right">
+<form method="get" action="javascript:clubSearchBBS()" name="cts_form">
+<input type="hidden" name="clubid" value="amigo">
+
+<table cellpadding="1" cellspacing="0" border="0" align="right">
+<tr>
+<td>
+<select name="m" class="box01" style="width:80px;height:30px;">
+
+<option value="FILE">자료실</option>
+<option value="CLUB">게시판</option>
+<option value="userid">아이디</option>
+<option value="name">닉네임</option>
+
+<option value="TAG">태그</option>
+
+</select>
+</td>
+<td><input name="q" value type="text" size="20" maxlength="20" class="box01" style="width:150px;height:26px;"></td>
+<td><a href="javascript:clubSearchBBS();" onClick="blur();"><img src="/images_v2/club/club_main_search.png" align="absmiddle" style="vertical-align: -5px;height:30px;"></a></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="120" background="https://club.kiwidisk.com/amigo/top_image_amigo" id="fileurl_skin">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="padding-left:20px;" valign="middle">
+<a href="/club/basic/club.php?clubid=amigo"><font color="#0021B0" id="color_title1" style="font-family:돋움;font-size:15pt;line-height: 130%;"><strong>대표클럽아미고★─＊</strong></font></a>
+<a href="/club/basic/club.php?clubid=amigo"><font color="#0021B0" id="color_title2">//club.kiwidisk.com/amigo</font></a>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30" bgcolor="#f4f4f4" style="padding:0 5px;">
+<div style="float:left;">
+<iframe id="empty_frame" name="empty_frame" src border="0" style="width:0;height:0" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+<a href="javascript:giftPointToClub('amigo')" onclick="blur()"><img src="/template/club/skin/basic/images/point_btn.gif" align="absmiddle"></a>
+<a href="javascript:alert('로그인 해주세요!');" target="club_body" onclick="blur()"><img src="/images/club/check_btn.gif" align="absmiddle"></a>
+<font color="#515151"><b>442</b>&nbsp;(5,013,152) </font>
+</div>
+<div style="float:right;">
+시샵:elle |
+알:9,632,349P |
+활동포인트:43,588,868P |
+사용용량:<b>2433.3TB</b>/<b>2450TB</b> | 개설일:2008.03.23
+<a href="/club/basic/club.php?club_mode=admin&clubid=amigo"><img src="/images/club/admin_btn.gif" align="absmiddle"></a>
+</div>
+</td>
+</tr>
+</table>
+<div style="width:1100px;height:100%;margin:5px auto 0px auto;clear:both;">
+<table height="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td width="180" style="background-color:#2690FE;padding:5px; text-align:center; width:180px; " id="color_menu1">
+<link href="/template/script/jquery-ui/css/south-street/jquery-ui-1.8.7.custom.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="/template/script/jquery-ui/js/jquery-ui-1.8.7.custom.min.js"></script>
+<link href="/template/script/cluetip/jquery.cluetip.css" rel="stylesheet" type="text/css">
+<link href="/template/script/dlayer.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/template/script/cluetip/jquery.cluetip.min.js"></script>
+<script type="text/javascript" src="/template/script/ajaxscroll/js/jquery.ajaxscroll.min.js"></script>
+<script type="text/javascript" src="/template/script/club_menu.js?ver=0.443"></script>
+<script type="text/javascript">
+function clubMainAdultClick(clubid,bbscode,idx){
+	if(!idx)	jQuery("a.mAdult[clubid='"+clubid+"'][bbscode='"+bbscode+"']").trigger("click");
+	else		jQuery("a.mAdult[kind='view']").attr({'clubid':clubid,'bbscode':bbscode,'idx':idx}).trigger("click");
+}
+</script>
+<a class="mAdult" target="club_body" kind="view" clubid bbscode idx></a>
+<table width="180" border="0" align="center" cellpadding="0" cellspacing="0" style="table-layout:fixed;">
+
+<form method="post" action="/login/index.php" name="login_form" target="_top">
+<input type="hidden" name="pg_mode" value="login">
+<input type="hidden" name="club_login" value="1">
+<input type="hidden" name="go_url" value="//www.kiwidisk.com/club/basic/club.php?clubid=amigo">
+<tr>
+<td bgcolor="#ffffff" style="padding:5px" align="center">
+<script type="text/javascript">
+		jQuery(function(){
+			jQuery(".sns_login_btn").css({"cursor":"pointer"}).click(function(){
+				document.location.href = "/member/sns_check/"+jQuery(this).attr("code")+"?go_url="+encodeURIComponent("//www.kiwidisk.com/club/basic/club.php?clubid=amigo")+"&protocol=https";
+			});
+		});
+		</script>
+<ul id="sns_login_c">
+<li>
+<input name="userid" type="text" class="box01" size="10" value tabindex="1" onKeyDown="loginInputSend();"><br/>
+<input name="userpw" type="password" class="box01" size="10" onKeyDown="loginInputSend();" tabindex="2">
+</li>
+<li><a href="javascript:loginSendit();"><img src="/images/login/login_v2/icon_club_login.png" tabindex="3"></a></li>
+<li><input type="checkbox" name="userid_save" value="1" onClick="cookieOff();"> 아이디저장</li>
+<li><a href="javascript:searchMember();"><img src="/images/login/login_v2/icon_find.png"> ID/PW찾기</a></li>
+<li>
+<span class="sns_login_btn google" code="google">구글 로그인</span><span class="sns_login_btn apple" code="apple">애플 로그인</span>
+</li>
+
+<li><a href="/member/join" target="_top"><img src="/images/join/club/icon_club_join.png"></a></li>
+</ul>
+</td>
+</tr>
+</form>
+<script language="JavaScript">
+	<!--
+	var f = loginForm();
+	if(f.userid.value) f.userpw.focus();
+	else f.userid.focus();
+	//-->
+  </script>
+
+
+
+
+<tr>
+<td style="padding-top:5px;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#ffffff" style="padding-top:4px; padding-left: 5px;">
+<div class="ubookmark_title" clubid="amigo">
+<span class="kiwi_bg bbs_bookmark">cl</span>
+<a>북마크 게시판</a></div>
+<div class="ubookmark_body"></div>
+
+<table width="165" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td height="1" bgcolor="#e0e0e0"></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table>
+<table width="165" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td height="1" bgcolor="#e0e0e0"></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table>
+<table width="165" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td height="1" bgcolor="#e0e0e0"></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff">
+
+<table width="174" height="58" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding-left:15px;"> <img src="/template/club/skin/basic/images/left_dot.gif" width="4" height="5" align="absmiddle">
+<a href="/club/basic/event.php?clubid=amigo&pg_mode=list" target="club_body"><strong><font color="#444444">진행중인
+이벤트</font></strong></a> <br>
+<img src="/template/club/skin/basic/images/left_dot.gif" width="4" height="5" align="absmiddle">
+<a href="/club/basic/covstory.php?clubid=amigo&pg_mode=list" target="club_body"><strong><font color="#444444">진행중인
+커버스토리</font></strong></a> </td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td style="padding-top:4px;">
+
+<table width="180" border="0" cellspacing="0" cellpadding="0">
+</table>
+
+</td>
+</tr>
+</table>
+<div id="Bgm_Layer" style="position:absolute; width:285px; height:87px; z-index:1; visibility: hidden;">
+<table width="220" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="10" onMouseover="hideLayer()"></td>
+<td>
+<table width cellpadding="2" cellspacing="1" border="0" bgcolor="#595959">
+</table>
+</td>
+<td width="10" onMouseover="hideLayer()"></td>
+</tr>
+<tr>
+<td height="10" colspan="3" onMouseover="hideLayer()"></td>
+</tr>
+</table>
+</div>
+</td>
+<td width="920" style="padding-left:10px;text-align:left;width:920px;">
+<div class="resizeIframe">
+<iframe id="club_body" name="club_body" onLoad="Init_clubbody(0);" src="/club/basic/main.php?clubid=amigo" border="0" style="width: 905px; height:500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+				</iframe>
+</div>
+<div class="top_down">
+<div style="position: fixed;bottom: 0px;margin:10px 10px 10px 25px; z-index:5000;">
+<span class="sTop" style="display:block;width:29px;height:26px;"><img src="/images/top_icon.png"></span>
+<span class="sDown" style="display:block;width:29px;height:26px;"><img src="/images/top_icon1.png"></span>
+</div>
+<div id="bbs_perv_next_btn" style="position: fixed;bottom:10px;margin:10px;width:83px;display:none; z-index:4000;">
+<span class="sLeft" style="float:left;display:block;cursor:pointer;margin-left:-10px;width:26px;height:29px;" idx code><img src="/images/top_icon2.png" style></span>
+<span class="sRight" style="float:left;display:block;cursor:pointer;margin-left:27px;width:26px;height:29px;" idx code><img src="/images/top_icon3.png" style></span>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+<table width="1100" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;clear:both;" align="center">
+<tr height="10"><td></td></tr>
+<tr>
+<td align="center" style="border-top:solid 2px #e0e0e0;padding:10px 0; color:#999999;text-align:center;">
+<p align="center">
+
+<a href="/customer/agree" target="_top">이용약관</a>&nbsp;|&nbsp;
+<a href="/customer/privacy" target="_top">개인정보보호정책</a>&nbsp;|&nbsp;
+<a href="/customer/email" target="_top">이메일무단수집거부</a>&nbsp;|&nbsp;
+<a href="/customer/bbs_list/copyright" target="_top">저작권보호</a>&nbsp;|&nbsp;
+<a href="/mypage/info/withdraw" target="_top">가입해지</a>&nbsp;|&nbsp;
+<a href="#">Universal Term of Service</a>&nbsp;|&nbsp;
+<a href="#">Legal</a>&nbsp;|&nbsp;
+<a href="#">Privacy Policy</a>
+</p>
+<p style="padding:8px 0 0 0;font-family:tahoma; font-size:8pt; color:#999999;text-align:center;">
+Copyright (C) 2015 KIWIDISK.COM, All rights reserved. Kiwidisk is a service of OVIDIO LIMITED
+</p>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+<script type="text/javascript">
+//window.setInterval("SetSessionReload()",600000);
+//function SetSessionReload(){
+//	$.get('/session_reload.php', function(data) {
+//	});
+//}
+</script>
