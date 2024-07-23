@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <style>
     body {
+      /* background-color: blue; */
       margin: 0;
     }
     a {
@@ -12,44 +13,66 @@
       text-decoration: none;
     }
     h1 {
-      color:white;
-      border:1px solid black;
+      color: white;
+      /* border-bottom:1px solid white; */
       background-color: black;
-      text-align:center;
+      text-align: center;
       padding: 50px;
       margin: 1px;
+      /* height: 100px; */
     }
     h2 {
       color:white;
-      border:1px solid gray;
+      /* border:1px solid white; */
       background-color: gray;
-      text-align:center;
+      text-align: center;
       padding: 25px;
       margin: 1px;
+      /* height: 50px; */
     }
-    @media (min-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+    #grid1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+    }
+    .link {
+      display: block;
+    }
+    @media only screen and (min-width: 800px) {
+      body {
+        background-color: lightblue;
+      }
     }
     @media (orientation: landscape) {
-  body {
-    background-color: lightpurple;
-  }
-    }
-    @media(max-width:600px) {
       body {
-    background-color: lightgreen;
+        background-color: lightpurple;
       }
-        div{
-          display:none;
-        }
+    }
+    @media (max-width:800px) {
+      body {
+        background-color: lightgreen;
+      }
+      div {
+        display: none;
+      }
     }
   </style>
 </head>
 <body>
   <h1>JJACCESS</h1>
-  <h2><a href="http://108.6.134.225/project/booking/booking.php">예약 노트</a></h2>
+  <h2>목차</h2>
+  <h2><a href="http://108.6.134.225/project/booking/booking.php" class="link">예약</a></h2>
+  <h2><a href="privacy-policy.html">Privacy Policy</a></h2>
+  <div id="grid1">
+    <h2><a href="booking/booking.php">노트</a></h2>
+    <h2><a href="http://108.6.134.225/project/booking/booking.php" class="link">예약</a></h2>
+    <h2><a href="privacy-policy.html">Privacy Policy</a></h2>
+  </div>
+  <h2><a href="privacy-policy.html">Privacy Policy</a></h2>
+  <h2><a href="booking/booking.php">노트</a></h2>
   <h2><a href="privacy-policy.html">Privacy Policy</a></h2>
 </body>
 </html>
